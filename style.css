@@ -135,6 +135,7 @@ button{
     position: absolute;
     top: 75%;
     padding: 100px;
+    cursor: pointer;
 }
 /*Rectangle 1*/
 .sub-container .pick-n-drop {
@@ -251,7 +252,7 @@ button{
 }
 .layout-1 .layout-1a{
     font-size: 40px;
-    font-weight: bold;
+    font-weight: 700;
 }
 .layout-1 .layout-1b{
     font-size: 16px;
@@ -477,6 +478,7 @@ button{
 }
 .layout-3b1 img{
     width: 28px;
+    cursor: pointer;
 }
 
 .layout-3c1{
@@ -496,34 +498,148 @@ button{
 }
 .vector img{
     width: 28px;
+    cursor: pointer;
 }
-.faq{
+.faq a{
     color: #E24329;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 700;
     margin-left: 300px;
-    margin-top: 40px;
-    line-height: 26px;
+    margin-bottom: 40px;
+    text-decoration: none;
+    line-height: 110px;
 }
-.faq img{
+.faq a img{
     width: 16px;
 }
 .layout-4a{
     font-size: 40px;
     font-weight: 700;
     color:#444B51;
-    margin-top: 100px;
+    margin-top: 60px;
     margin-left: 500px;
 }
 ul{
     display: flex;
     list-style: none;
     gap: 100px;
-    padding: 65px 120px;
+    padding: 60px 120px;
 }
 .logos ul a img{
     width: 80px;
 }
+.layout-5b{
+    display: flex;
+    gap: 80px;
+    margin-top: 50px;
+    justify-content: center;
+}
+.layout-5a1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #444B51;
+    text-align: center;
+    margin-top: 45px;
+}
+.layout-5a2{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 28px;
+    margin-top: 26px;
+}
+.layout-5b img{
+    margin-top: 30px;
+}
+.layout-5b1 p{
+    margin-top: 30px;
+    line-height: 30px;
+    font-size: 20;
+    font-weight: bold;
+    color: #444B51;;
+}
+.rating{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 15px;
+    margin-top: 30px;
+    margin-right: 230px;
+}
+.rating input{
+display: none;
+}
+.rating label{
+    font-size: 35px;
+    color: #E24329;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+.rating input:checked~label{
+    color: #f5b301;
+}
+.rating label:hover,
+.rating label:hover~label{
+    color: #f5b301;
+}
+.layout-5b2 .mofiza{
+    font: 700;
+    font-size: 26px;
+    color: #E24329;
+    margin-top: 40PX;
+}
+.layout-5b2 .director{
+    font-weight: 550;
+    font-size: 16px;
+    color: #444B51;
+    margin-top: 0PX;
+}
+ .arrow-direction{
+    margin-top: 63PX;
+    display: flex;
+    gap: 25px;
+}
+.layout-6 img{
+    width: 927px;
+    height: auto;
+    background: #feefed;
+    margin-top: 75px;
+    margin-left: 170px;   
+    border-radius: 24px; 
+    border: solid 1px #fff;
+    position: relative;
+}
+.layout-6 .layout-6b{
+    position: absolute;
+    top: 4075px;
+    left: 260px;
+}
+.layout-6b .layout-6b1{
+    font-size: 41px;
+    font-weight: 700;
+    color: #444B51;
+    word-spacing: 5px;
+
+}
+.layout-6b .layout-6b2{
+    font-size: 16px;
+    color: #444B51;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 35px;
+}
+.layout-6b button{
+    width: 300px;
+    height: 62px;
+    border-radius: 25px;
+    background-color: #fff;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0, 0.1);
+    color: #E24329;
+    margin-left: 220px;
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
 
 
 
@@ -550,7 +666,7 @@ ul{
     }
     .background-img img{
         
-    }
+    
 
  
 }
