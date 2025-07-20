@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delivery Services APP</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" /> 
 </head>
 <body>
     
     <nav>
         <div class="nav-bar">
             <div class="logo"><img src="images/bonik delivery logo.png" alt="bonik delivery logo"></div>
-            <div class="nav-links">
+            <div class="nav-links" id="navlinks">
                 <div class="contact"><img src="images/call-icon.svg" alt="Call icon"> <span> +088 01877576457</span></div>
                 <button>Sign In</button>
                 <div class="earth-icon"><img src="images/earth-icon.svg" alt=""><h4>EN</h4></div>
             </div>
-            <div class="menu-bar"><i class="fa fa-bars" aria-hidden="true"></i></div>
+            <div class="menu-bar" onclick="toggleMenu()"><i class="fa fa-bars" aria-hidden="true"></i></div>
         </div>
     </nav>
     
@@ -39,15 +40,15 @@
              </div>
              <div class="row">
                 <input type="text" id="input-box" placeholder="Type your tracking number">
-                <button onclick="addTask()">Track Parcel</button>
+                <button>Track Parcel</button>
             </div>
         </div>
         <div class="bonik-delivery-img">
             <img src="images/bonik delivery img 1.png" alt="bonik delivery image">
         </div>
     </div>
-    <!--Rectangles-->
-    <dsiv class="sub-container">
+    <!--Cards-->
+    <div class="sub-container">
         <div class="pick-n-drop">
             <img src="images/pick-n-drop-icon.svg" alt="">
             <div class="booking">
@@ -81,15 +82,13 @@
     </div>
     </div>
 
-    <!--Comment Section-->
-
-
+    <!--Why choose us section-->
     <div class="layout">
         <div class="layout-1">
             <p class="layout-1a">Why Choose Us?</p>
             <p class="layout-1b">Need to send something on time? Delivery is process of transporting goods
                  <br>from a source loaction to a predefined destination</p>
-        </div>
+        </div>  
         <div class="grid-container">
             <div class="grid-item grid-item-1">
                 <div><img src="images/Group (1).png" alt="Icon"></div>
@@ -106,7 +105,7 @@
             </div>
             <div class="grid-item-3">
                 <img src="images/Group (2).png" alt="">
-                <p class="industry">Fastes delivery</p>
+                <p class="industry">Fastest delivery</p>
                 <p class="delivery">Delivery is process of transporting from
                     <br>source point to predefined destination</p>
             </div>
@@ -148,7 +147,7 @@
             </div>
         </div>
     </div>
-
+    <!--Apply Ambassador section-->
     <div class="layout-2">
         <div class="delivery-img-02">
             <img src="images/bonik delivery img 02 1.png" alt="Bonik delivery image">
@@ -173,7 +172,7 @@
         </div>
         <div class="layout-3b">
             <div class="layout-3b1">
-                <div>
+                <div class="vet">
                     <img src="images/Vector.png" alt="Vector icon">
                 </div>
                 <div class="border">
@@ -219,7 +218,7 @@
                 <li><a href="#"><img src="images/syngenta.png" alt=""></a></li>
                 <li><a href="#"><img src="images/merck.png" alt=""></a></li>
             </ul>
-        </div>
+        </div> 
     </div>
     <div class="layout-5">
         <div class="layout-5a">
@@ -433,10 +432,7 @@
     <div class="layout-9d">
         <p>Copyright @2021 Bonik Delivery</p>
     </div>
-
-
-
-
+    
    <script src="script.js"></script> 
 </body>
 </html>
